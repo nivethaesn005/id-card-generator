@@ -1,0 +1,237 @@
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.form-box{
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 10px auto;
+    background-color: #f9f9f9;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.preview-box {
+    width: 120px;
+    height: 140px;
+    border: 1px solid #ccc;
+    margin: 8px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.preview-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pto {
+    margin: 10px;
+    justify-items: center;
+    padding: 5px;
+}
+.pto>input{
+    justify-self: center;
+}
+
+.yr{
+    margin: 10px;
+    justify-items: center;
+}
+.yr>input{
+    width: 200px;
+    height: 30px;
+    border-radius: 18px;
+    padding: 10px;
+    border: 0.5px solid gray;
+    margin-top: 5px;
+}
+
+.name-field{
+    margin: 10px;
+    justify-items: center;
+}
+.name-field>input{
+    width: 200px;
+    height: 30px;
+    border-radius: 18px;
+    padding: 10px;
+    border: 0.5px solid gray;
+    margin-top: 5px;
+}
+
+.dept{
+    margin: 10px;
+    justify-items: center;
+}
+.dept>select{
+    width: 200px;
+    height: 30px;
+    border-radius: 18px;
+    padding: 0 10px;
+    border: 0.5px solid gray;
+    margin-top: 5px;
+}
+
+.roll-no{
+    margin: 10px;
+    justify-items: center;
+}
+.roll-no>input{
+    width: 200px;
+    height: 30px;
+    border-radius: 18px;
+    padding: 10px;
+    border: 0.5px solid gray;
+    margin-top: 5px;
+}
+
+.dob{
+    margin: 10px;
+    justify-items: center;
+}
+.dob>input{
+    width: 200px;
+    height: 30px;
+    border-radius: 18px;
+    padding: 10px;
+    border: 0.5px solid gray;
+    margin-top: 5px;
+}
+
+.bld{
+    margin: 10px;
+    justify-items: center;
+}
+.bld>input{
+    width: 200px;
+    height: 30px;
+    border-radius: 18px;
+    padding: 10px;
+    border: 0.5px solid gray;
+    margin-top: 5px;
+}
+.parent{
+    margin: 10px;
+    justify-items: center;
+}
+.parent>select{
+    width: 70px;
+    height: 30px;
+    border-radius: 18px 0 0 18px;
+    padding: 0 10px;
+    border: 0.5px solid gray;
+    margin-top: 5px;
+}
+.parent>input{
+    width: 200px;
+    height: 30px;
+    border-radius: 0 18px 18px 0;
+    padding: 0 10px;
+    border: 0.5px solid gray;
+    margin-top: 5px;
+}
+.addrs{
+    margin: 10px;
+    justify-items: center;
+}
+.addrs>textarea{
+    width: 420px;
+    height: 60px;
+    border-radius: 18px;
+    padding: 10px;
+    border: 0.5px solid gray;
+    margin-top: 5px;
+    resize: none;
+}
+.contact{
+    margin: 10px;
+    justify-items: center;
+}
+.contact>input{
+    width: 200px;
+    height: 30px;
+    border-radius: 18px;
+    padding: 10px;
+    border: 0.5px solid gray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+.btn>button{
+    width: 100px;
+    height: 35px;
+    border-radius: 18px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn>button:hover{
+    background-color: darkblue;
+}
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .form-box {
+        padding: 15px;
+        max-width: 95%;
+    }
+
+    .addrs > textarea {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .form-box {
+        padding: 10px;
+        max-width: 100%;
+    }
+
+    .yr > input,
+    .name-field > input,
+    .dept > select,
+    .roll-no > input,
+    .dob > input,
+    .bld > input,
+    .contact > input {
+        width: 100%;
+    }
+
+    .addrs > textarea {
+        width: 250px;
+    }
+
+    .btn > button {
+        width: 100%;
+    }
+}

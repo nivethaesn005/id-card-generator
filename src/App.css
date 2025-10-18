@@ -1,0 +1,17 @@
+.spinner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.spinner-box>h1{
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-top: 20px;
+}
+.spinner-box>img{
+    width: 150px;
+    height: 150px;
+}
